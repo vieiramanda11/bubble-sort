@@ -32,5 +32,4 @@ end
 
 # tests
 puts bubble_sort([4, 3, 78, 2, 0, 2])
-puts ' '
 puts bubble_sort_by(%w[hi hello hey]) { |left,right| left.length - right.length }
